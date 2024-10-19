@@ -18,6 +18,8 @@ Erklärung der Felder:
 +   Expire: Datum, an dem das Benutzerkonto abläuft (in Tagen seit dem 1. Januar 1970).
 
 
+
+
 ## Verwaltung von Passwörtern
 
 Passwörter können über den Befehl **passwd** verwaltet werden. Mit **passwd**  kann ein Benutzer sein Passwort ändern oder ein Administrator kann das Passwort eines anderen Benutzers setzen oder ändern. Häufige **passwd** Befehle:
