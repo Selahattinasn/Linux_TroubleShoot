@@ -32,7 +32,7 @@ Parameter im Befehl:
         Dieser Teil markiert das Ende des -exec-Befehls. Der Befehl find verwendet \; als Abschluss des durch -exec ausgeführten Kommandos.
 
 
-
+----
 #### Cronjob command 
 
 _Welche cronjob gibt es?_
