@@ -3,10 +3,9 @@
 ### Command zum finden und löschen
 
 _for that we use  *find* coomand_
-
-´´´´
+````
 find /var/log/security -type f -mtime +7 -exec rm -rf {} \; 
-´´´´
+````
 
 Parameter im Befehl:
 
