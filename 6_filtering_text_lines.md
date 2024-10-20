@@ -6,7 +6,7 @@ _verwende grep command und meta characters._
 ````
 cat sample.txt | grep -v ^# | grep -v '^[[:space:]]*$'
 ````
-
+ ![filtering_text](images/filter_1.png)
 
 #### Erklarung über die Befehle
 Struktur des Befehls:
