@@ -1,4 +1,4 @@
-### how to remove files lder than 7 day by creating a cron job?
+## How to remove files lder than 7 day by creating a cron job?
 
 ### Command zum finden und löschen
 
@@ -35,6 +35,17 @@ Parameter im Befehl:
 
 #### Cronjob command 
 
-´´´´
+_Welche cronjob gibt es?_
+````
+crontab -l
+````
 
-´´´´
+ _set a cronjob_
+````
+crontab -e
+````
+
+
+````
+
+````
