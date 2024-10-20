@@ -41,6 +41,8 @@ crontab -l
 ````
 
  _set a cronjob_
+ - Config File: /etc/crontab_
+ ![cronjob_format](images/crontab_1.png)
 ````
 crontab -e
 ````
