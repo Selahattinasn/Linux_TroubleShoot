@@ -44,6 +44,9 @@ crontab -l
  - Config File: /etc/crontab_
  ![cronjob_format](images/crontab_1.png)
 
+
+
+
 _um Editieren cronjob_
 ````
 crontab -e
