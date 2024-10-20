@@ -43,11 +43,12 @@ crontab -l
  _set a cronjob_
  - Config File: /etc/crontab_
  ![cronjob_format](images/crontab_1.png)
+
+-um Editieren cronjob_
 ````
 crontab -e
 ````
-
-
+_um Beispiel: every bight at 2 oclock. 
 ````
-
+0 2 * * * /bin/find /var/log/securitycamera -type -mtime -7 --exec rm -rf {} \; 
 ````
