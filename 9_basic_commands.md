@@ -150,10 +150,12 @@ ip r
 
 ![checkNet](images/checkNet.png)
 
+---
 #### read Top/Botton of a file
 
 *** head *** or ***tail***
 
+---
 
 #### find Hostnam
 ````
@@ -177,5 +179,14 @@ sudo nano /etc/hosts
 '''
 ![hosts3](images/hosts3.png)
 
+---
+#### Counting lines word and characters of a file 
+*** ls ***
+'''
+wc -lcw file.txt
+'''
 
+![wc-wcl](images/howc-wcl.png)
+
+---
 
