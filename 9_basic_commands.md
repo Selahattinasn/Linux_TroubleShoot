@@ -171,6 +171,7 @@ sudo nano /etc/hostname
 
 
 *** Update /etc/hosts ****
+
 '''
 sudo nano /etc/hosts
 '''
