@@ -1,4 +1,4 @@
-## Add a User mit predefinied UID, SHELL and HOME_DIRECTORY
+## Add a User with predefinied UID, SHELL and HOME_DIRECTORY
 
 ````
 sudo useradd -m -d /home/mirmiray  -s /bin/bash -u 1453 miray
@@ -31,7 +31,7 @@ sudo useradd  -g printadmin  -G docker kamil
 
 ----
 
-## How to change the Primary Group of a Useer
+## How to change the Primary Group of a User
 
 
 ````
@@ -43,5 +43,24 @@ id kamil
 ````
 
 ![users4](images/users4.png)
+
+----
+
+## How to give a normal User Root_Priviligies
+
+-gir entries in /etc/sudoers with "visudo" command_
+
+
+````
+sudo visud
+
+    " miray ALL=(ALL) ALL "
+````
+
+````
+sudo su - miray
+````
+
+![users5](images/users5.png)
 
 ----
