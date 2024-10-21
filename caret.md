@@ -2,4 +2,4 @@
 
 ````
 
- ![cronjob_format](images/crontab_1.png)
+![cronjob_format](images/crontab_1.png)
