@@ -105,9 +105,13 @@ _ use  "passwd" command with " -l " or " -u " options._
 
 
 ````
+sudo grep kamil /etc/shadow
 passwd -l kamil
+sudo grep kamil /etc/shadow
 passwd -u kamil
+sudo grep kamil /etc/shadow
 ````
+_The !! mark emans "locked"_
 
 
 ![users8](images/users8.png)
