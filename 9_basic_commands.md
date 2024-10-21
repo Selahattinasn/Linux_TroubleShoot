@@ -190,3 +190,18 @@ wc -lcw file.txt
 
 ---
 
+### Commond for Groups
+'''
+groups <UserName>
+groupadd docker
+cat /etc/group
+
+'''
+
+---
+
+### Rebooting wit  "init " command
+ _***init 6*** is equavilent wit ***reboot***_
+'''
+init 6 
+'''
