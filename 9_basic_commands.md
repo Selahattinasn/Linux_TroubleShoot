@@ -28,9 +28,10 @@ _ "i " ignores Upper or Lower casesensitiviness_
 ````
 mkdir DirectoryName
 ````
-
+#### How to remove Directory
 ````
-
+rmdir emptyDirectpry
+rmdir -r busyDirectory
 ````
 
 ````
