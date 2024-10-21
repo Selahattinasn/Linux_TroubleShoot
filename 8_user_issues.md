@@ -81,6 +81,18 @@ sudo su - miray
 dnf update
 ````
 
-![users5](images/users7.png)
+![users7](images/users7.png)
 
 ----
+
+## How to view Users Login and Logout Details
+
+_for Log Infos use  "last" command_
+
+
+````
+last $(whoami)
+````
+
+
+![users6](images/users6.png)
