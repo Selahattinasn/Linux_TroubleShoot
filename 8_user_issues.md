@@ -48,7 +48,7 @@ id kamil
 
 ## How to give a normal User Root_Priviligies
 
--gir entries in /etc/sudoers with "visudo" command_
+_entries in /etc/sudoers with "visudo" command_
 
 
 ````
@@ -62,5 +62,25 @@ sudo su - miray
 ````
 
 ![users5](images/users5.png)
+
+----
+
+## How to provide sudo_access without password
+
+- entries in /etc/sudoers with "visudo" command with NOPASSWD_
+
+
+````
+sudo visud
+
+    " miray ALL=(ALL) NOPASSWD:ALL "
+````
+
+````
+sudo su - miray
+dnf update
+````
+
+![users5](images/users7.png)
 
 ----
