@@ -52,7 +52,7 @@ _entries in /etc/sudoers with "visudo" command_
 
 
 ````
-sudo visud
+sudo EDITOR=nano visudo
 
     " miray ALL=(ALL) ALL "
 ````
@@ -71,7 +71,7 @@ sudo su - miray
 
 
 ````
-sudo visud
+sudo EDITOR=nano visudo
 
     " miray ALL=(ALL) NOPASSWD:ALL "
 ````
