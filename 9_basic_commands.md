@@ -205,3 +205,19 @@ cat /etc/group
 '''
 init 6 
 '''
+
+---
+
+### running Provcess 
+ _*** ps -ef ***_
+
+
+---
+
+### Where is the Network Time Config File
+***/etc/ntpd.conf***
+'''
+cat  /etc/ntpd.conf
+sudo nano /etc/chrony.conf
+
+'''
