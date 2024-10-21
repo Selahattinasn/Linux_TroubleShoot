@@ -160,6 +160,7 @@ ip r
 hostname
 sudo hostnamectl set-hostname new-hostname
 ````
+![hostnames](images/hostnames.png)
 
 ##update hostname 
 
@@ -169,4 +170,11 @@ sudo nano /etc/hostname
 ![hostnames1](images/hostnames1.png)
 
 
-![hostnames](images/hostnames.png)
+*** Update /etc/hosts ****
+'''
+sudo nano /etc/hosts
+'''
+![hosts3](images/hosts3.png)
+
+
+
