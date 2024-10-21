@@ -16,7 +16,7 @@ _"userdell" command with "-r" option dletes home directory._
 sudo userdel -r <userName>
 ````
 
-![users1](images/users2.png)
+![users2](images/users2.png)
 
 ----
 
@@ -27,7 +27,7 @@ sudo userdel -r <userName>
 sudo useradd  -g printadmin  -G docker kamil 
 ````
 
-![users1](images/users3.png)
+![users3](images/users3.png)
 
 ----
 
