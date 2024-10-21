@@ -96,3 +96,18 @@ last $(whoami)
 
 
 ![users6](images/users6.png)
+
+----
+
+## How to Lock and Unlock a User Account
+
+_ use  "passwd" command with " -l " or " -u " options._
+
+
+````
+passwd -l kamil
+passwd -u kamil
+````
+
+
+![users8](images/users8.png)
