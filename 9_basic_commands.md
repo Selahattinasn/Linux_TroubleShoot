@@ -165,59 +165,58 @@ sudo hostnamectl set-hostname new-hostname
 ![hostnames](images/hostnames.png)
 
 ##update hostname 
-
-'''
+````
 sudo nano /etc/hostname
-'''
+````
 ![hostnames1](images/hostnames1.png)
 
 
 *** Update /etc/hosts ****
 
-'''
+````
 sudo nano /etc/hosts
-'''
+````
 ![hosts3](images/hosts3.png)
 
 ---
 #### Counting lines word and characters of a file 
 *** ls ***
-'''
+````
 wc -lcw file.txt
-'''
+````
 
 ![wc-wcl](images/howc-wcl.png)
 
 ---
 
 ### Commond for Groups
-'''
+````
 groups <UserName>
 groupadd docker
 cat /etc/group
 
-'''
+````
 
 ---
 
 ### Rebooting wit  "init " command
  _***init 6*** is equavilent wit ***reboot***_
-'''
+````
 init 6 
-'''
+````
 
 ---
 
 ### running Provcess 
- _*** ps -ef ***_
+ _```` ps -ef ````
 
 
 ---
 
 ### Where is the Network Time Config File
 ***/etc/ntpd.conf***
-'''
+````
 cat  /etc/ntpd.conf
 sudo nano /etc/chrony.conf
 
-'''
+````
