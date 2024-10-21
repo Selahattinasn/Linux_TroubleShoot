@@ -12,6 +12,7 @@ ls -a
 #### Difference between # and $ Promts
 
  _"#" indicates root user_
+
  _"$" indicates normal user_
 
 
@@ -33,21 +34,29 @@ mkdir DirectoryName
 rmdir emptyDirectpry
 rmdir -r busyDirectory
 ````
-
+#### build File
+````
+touch sampleFile
+````
+#### Moving File
+````
+pwd
+mv fileHere fileThere
 ````
 
+#### Delete File
 ````
+rm sampleFile
+````
+Default Port of DNS
+
+***Port 53***
+
+#### DNS Package Name
+***bind*** or ***named***
 
 ````
-
-````
-
-````
-
-````
-
-````
-
+rpm -qa | grep bind
 ````
 
 ````
