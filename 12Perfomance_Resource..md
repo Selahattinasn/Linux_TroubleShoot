@@ -2,7 +2,7 @@
 
 to see all ts set for root 
 ````
-ulimt -a
+ulimit -a
 ````
 ![ulimit](images/ulimit.png)
 
@@ -90,8 +90,21 @@ sysctl -p
 ### How to view Boot time parameters and which file is modified to change these parameters?
 
 ````
+cat /proc/cmdline
+````
+![perf5](images/perf5.png)
+
+_these are the boot time parameters. So when the system is booting, this is what you get on the screen.
+And yes, you can edit those and you can modify those, but you cannot go and modify those in this file.
+The way to modify those actually these are supplied or the system gets these from grub.cfg file, which
+is for which is Grub2 on rheL seven we're using._
+
 
 ````
-
-![cronjob_format](images/crontab_1.png)
+cat /boot/grub2/grub.cfg
+````
+![perf6](images/perf6.png)
+This is where the boot time parameters are, which we can control.
+So if you make change, make if you want to make any changes to boot time parameters, this is where
+you will come and do it.
 
