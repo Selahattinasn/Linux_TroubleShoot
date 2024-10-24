@@ -62,7 +62,7 @@ cat /var/log/anaconda/anaconda.log
 
 ![journal6](images/journal6.png)
 
-##### Where are the most of the log files are located
+#### Where are the most of the log files are located
 
 under  ***/var/log/***   directorys.
 
