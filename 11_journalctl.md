@@ -30,7 +30,10 @@ dmesg`
 
 ````
 journalctl -k
-```
+````
+
+
+
 ![journal2](images/journal2.png)
 
 #### Wie können wir logdatei kontiniuerliche und live  sehen?
@@ -43,17 +46,22 @@ journalctl -f
 
 ![journal4](images/journal4.png)
 
-_oder ,it dem  ```` tail -f /var/log/messages   ```` . /var/log(messages is the file all logs_
+_oder ,in dem   /var/log(messages is the file all logs_
+````
+tail -f /var/log/messages
+````
+
 
 #### Where können wir die Messages reletet to Installation von Linux finedn  ? 
 
-_dazu nutzen wir *** cat /var/log/anaconda/anaconda.log *** firl_
+_dazu nutzen wir *** cat /var/log/anaconda/anaconda.log *** fire_
 
 ````
 cat /var/log/anaconda/anaconda.log
 ````
 
 ![journal6](images/journal6.png)
+
 
 #### Where are the most of the log files are located
 
