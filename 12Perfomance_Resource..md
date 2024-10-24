@@ -33,7 +33,6 @@ For any user logged in , thereis a file that we can look into, and set the user 
 nano /etc/security/limits.conf
 ````
 
-![cronjob_format](images/crontab_1.png)
 
 ### How to check mit for a user.
 *** ulimit -a *** checks for a user. 
@@ -104,7 +103,7 @@ is for which is Grub2 on rheL seven we're using._
 cat /boot/grub2/grub.cfg
 ````
 ![perf6](images/perf6.png)
-This is where the boot time parameters are, which we can control.
+_This is where the boot time parameters are, which we can control.
 So if you make change, make if you want to make any changes to boot time parameters, this is where
-you will come and do it.
+you will come and do it._
 
