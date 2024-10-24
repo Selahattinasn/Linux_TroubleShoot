@@ -217,6 +217,9 @@ init 6
 ***/etc/ntpd.conf***
 ````
 cat  /etc/ntpd.conf
-sudo nano /etc/chrony.conf
-
+sudo nano /etc/chrony.conf #for rocky linux
 ````
+
+### find who is last logged in
+
+*** logged *** command shows
